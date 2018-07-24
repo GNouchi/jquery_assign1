@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+      $(document).ready(
+          function(){
+          $('img').click(
+              function(){
+                  $(this).hide();}
+              )
+          $('button').click(
+              function(){
+                  $('img').show();}
+              )
+          }
+
+      )
+        </script>
+        <title>Disappearing Ninja</title>
+    </head>
+    <body>
+        <main role = "main">
+        <div class="container">
+            <h3>jQuery Assignment 1 <span>Disappearing</span> (meme)</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="row r1">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                </div>
+                <div class="row r2">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                    <img src="https://memegenerator.net/img/instances/500x/11649652/ho-hu-dat.jpg" alt="hudat">
+                </div>
+            </div>
+            <hr>
+            <button type="button" name="button">Bring it back!</button>
+        </div>
+    </main>
+    </body>
+</html>
